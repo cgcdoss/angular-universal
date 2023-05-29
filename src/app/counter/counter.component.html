@@ -1,0 +1,7 @@
+<button (click)="counter$.next(counter$.value + 1)">
+    {{ counter$ | async }}
+</button>
+
+<p>
+    {{ double$ | async }}
+</p>
